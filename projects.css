@@ -1,0 +1,74 @@
+.projects-section {
+  padding: 40px;
+  max-width: 1000px;
+  margin: auto;
+  text-align: center;
+}
+
+.projects-section h2 span {
+  background-color: white;
+  color: #ff5e00;
+  padding: 5px 15px;
+  border-radius: 10px;
+  font-weight: bold;
+  font-size: 40px;
+}
+
+.project-link-btn {
+  display: inline-block;
+  margin-top: 12px;
+  padding: 10px 22px;
+  background-color: #ff5e00;
+  color: white;
+  border-radius: 25px;
+  font-weight: bold;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+  font-size: 14px;
+}
+
+.project-link-btn:hover {
+  background-color: #413f3f;
+}
+
+.project-images {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  flex-wrap: wrap;
+
+}
+
+.project img {
+  width: 250px;
+  height: 350px;
+  border-radius: 15px;
+  border: 3px solid #1e90ff;
+}
+
+.project p {
+  margin-top: 10px;
+  color: #ff5e00;
+  font-weight: bold;
+}
+
+.project-details {
+  margin-top: 50px;
+  text-align: left;
+  color: white;
+}
+
+.project-desc {
+  margin-bottom: 30px;
+}
+
+.project-desc h3 {
+  color: #ff5e00;
+}
+
+.project-desc p {
+  font-size: 15px;
+  line-height: 1.8;
+}

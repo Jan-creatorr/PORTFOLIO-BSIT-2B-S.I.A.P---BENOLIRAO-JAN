@@ -1,0 +1,52 @@
+.about-section {
+  padding: 20px 60px;
+  max-width: 1000px;
+  margin: auto;
+  text-align: center;
+  background-color: rgb(15, 9, 65);
+  max-width: 1000px;
+  border-radius: 30px;
+}
+
+.about-header span {
+  background-color: #1a1a40;
+  color: #ff5e00;
+  padding: 5px 15px;
+  border-radius: 10px;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.about-section p {
+  text-align: center;
+  margin-top: 30px;
+  font-size: 17px;
+  line-height: 1.8;
+  color: #ffffff;
+}
+
+.skills {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  margin-top: 30px;
+}
+
+.skills img {
+  width: 50px;
+  height: 50px;
+}
+
+.projects-btn {
+  margin-top: 40px;
+}
+
+.projects-button a {
+  background-color: black;
+  color: #ff5e00;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 25px;
+  font-weight: bold;
+  display: inline-block;
+}
